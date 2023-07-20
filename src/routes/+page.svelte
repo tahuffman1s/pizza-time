@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+  import "98.css";
+  import "animate.css";
+  import RainbowBackground from "../Components/Effects/RainbowBackground.svelte";
+  import Desktop from "../Components/Foundation/Desktop/Desktop.svelte";
+  import Pizzaboy from "../Components/Applications/pizzaboy.svelte";
+</script>
+
+<RainbowBackground>
+  <Desktop />
+  <Pizzaboy />
+</RainbowBackground>
