@@ -1,4 +1,8 @@
-<h1>
+<script lang="ts">
+  import "animate.css";
+</script>
+
+<h1 class="animate__animated animate-bounce">
   <slot />
 </h1>
 

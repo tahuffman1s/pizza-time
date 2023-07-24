@@ -6,6 +6,7 @@ const config = {
     extend: {
       colors: {
         "windows-grey": "#c0c0c0",
+        "windows-border": "#f4f4f4",
       },
     },
   },

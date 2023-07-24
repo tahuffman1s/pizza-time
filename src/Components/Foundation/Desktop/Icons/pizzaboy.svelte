@@ -9,6 +9,6 @@
 
 <Icon
   on:Click={click}
-  name="pizzaboy.exe"
+  name="pizzaboy.piz"
   imagePath="images\icons\pizzaboy.gif"
 />
