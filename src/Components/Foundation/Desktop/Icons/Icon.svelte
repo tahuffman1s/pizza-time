@@ -13,6 +13,6 @@
 <Draggable>
   <div on:click={click} role="none">
     <img class="pl-2" width="50" height="50" src={imagePath} alt={name} />
-    <div class="title-bar-text">{name}</div>
+    <div class="title-bar-text font-windows">{name}</div>
   </div>
 </Draggable>

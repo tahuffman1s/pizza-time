@@ -1,15 +1,22 @@
 <script lang="ts">
+  import ClippyAgent from "./Clippy/clippy-agent.svelte";
   import Pizzaboy from "./Icons/pizzaboy.svelte";
-  import Logo from "./Logo/logo.svelte";
   import Toolbar from "./Toolbar/Toolbar.svelte";
+  let viewHeight: number;
+  let viewWidth: number;
+  $: console.log(viewHeight);
 </script>
 
-<div class="flex flex-col h-screen justify-between">
-  <div id="icons" class="p-5">
+<div
+  bind:clientWidth={viewWidth}
+  bind:clientHeight={viewHeight}
+  class=" h-screen w-screen flex flex-col justify-between"
+>
+  <div class="p-5">
     <Pizzaboy />
   </div>
+  <ClippyAgent x={viewWidth - 160} y={viewHeight - 200} />
   <footer>
     <Toolbar />
   </footer>
-  <Logo height={200} width={200} x={50} y={50} />
 </div>
