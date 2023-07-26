@@ -15,7 +15,7 @@
   <div class="p-5">
     <Pizzaboy />
   </div>
-  <ClippyAgent x={viewWidth - 160} y={viewHeight - 200} />
+  <ClippyAgent x={viewWidth - 300} y={viewHeight - 350} />
   <footer>
     <Toolbar />
   </footer>

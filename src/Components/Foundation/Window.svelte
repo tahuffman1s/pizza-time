@@ -58,7 +58,7 @@
   <div
     class="window height"
     bind:this={window}
-    style="width: {width}px; height: {height}px;"
+    style="width: {width}px; height: {height}px; position: absolute; z-index: 300;"
   >
     <div class="title-bar">
       <div class="title-bar-text">
